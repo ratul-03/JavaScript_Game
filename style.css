@@ -1,0 +1,133 @@
+/* Common CSS*/
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    background-image: linear-gradient(0deg, #FDA7DF, #dff9fb 100%);
+    font-weight: 400;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#header_area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#header_area p {
+    font-weight: 800;
+}
+
+#again {
+    background: red;
+    border-radius: 5px;
+    border: 0;
+    font-family: "Roboto Slab", serif;
+    color: white;
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#again:hover {
+    background: #ff6b81;
+}
+
+/* Hero Area */
+#hero_area {
+    padding: 45px 0 0;
+    text-align: center;
+    position: relative;
+}
+
+#hero_area h2 {
+    font-size: 30px;
+}
+
+#guess {
+    background: white;
+    width: 200px;
+    text-align: center;
+    /* height: 65px; */
+    padding: 20px;
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+#guess h3 {
+    display: none;
+}
+
+/* Message Area */
+#messseage_info {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+#messseage_info p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#main_body {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_area {
+    flex-basis: 48%;
+    margin-right: 4%;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+    flex-direction: column;
+}
+
+#input {
+    background: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#submit {
+    font-family: "Roboto Slab", serif;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 10px;
+    background: #2ed573;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#submit:hover {
+    background: greenyellow;
+}
+
+.staus_area {
+    flex-basis: 48%;
+}
